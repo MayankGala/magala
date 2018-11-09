@@ -1,10 +1,7 @@
 #include <stdio.h>
 
-<<<<<<< HEAD
-size_t my_strlen(char *s)
-=======
+
 size_t my_strlen(const char *s)
->>>>>>> a6e4b1e0ab0597d9df22a609a306ef52231c1dbe
 {
   const char *p = s;
   while(*p)
